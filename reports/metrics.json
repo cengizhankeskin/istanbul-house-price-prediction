@@ -1,0 +1,25 @@
+{
+  "raw_rows": 24767,
+  "modeled_rows": 22995,
+  "features": 19,
+  "train_rows": 17246,
+  "test_rows": 5749,
+  "split_seed": 42,
+  "test_size": 0.25,
+  "price_filter_lower": -16500000.0,
+  "price_filter_upper": 32500000.0,
+  "results": [
+    {
+      "Model": "Mean baseline",
+      "R2": -3.284294072614102e-05,
+      "MAE_TRY": 4345700.51139602,
+      "RMSE_TRY": 5923879.158817142
+    },
+    {
+      "Model": "XGBoost",
+      "R2": 0.8221765756607056,
+      "MAE_TRY": 1619965.125,
+      "RMSE_TRY": 2498006.5
+    }
+  ]
+}
